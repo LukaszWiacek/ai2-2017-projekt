@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CLIENTS PREDICTION</title>
+</head>
+<body>
+    <h2>Clients Prediction app</h2>
+    <h3>The prediction is: {{ predict_clients }}</h3>
+    <img src="{% static "predict/images/clients_point_plot.png" %}" alt='number of clients plot (point)' />
+    <img src="{% static "predict/images/clients_line_plot.png" %}" alt='number of clients plot (line)' />
+</body>
+</html>
